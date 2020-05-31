@@ -64,6 +64,7 @@ const addToFavourites = (caller) =>{
      if(idList===null){
          var idArray = [getId]; 
          localStorage.setItem('superHeroId',JSON.stringify(idArray));
+         alert("Added to favourite");
      }else{
          var idArray = JSON.parse(idList);
          //inserting only unique elements
@@ -71,10 +72,10 @@ const addToFavourites = (caller) =>{
              idArray.push(getId);
              localStorage.setItem('superHeroId',JSON.stringify(idArray));
              //showing alert on inserting to favourites
-             alert("Added to favourite")
+             alert("Added to favourite");
          }else{
              //showing alert on already inserted
-             alert("Already exists in favourites")
+             alert("Already exists in favourites");
          }
 
      }
