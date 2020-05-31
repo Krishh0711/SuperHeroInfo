@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    background: linear-gradient(0deg,violet, white,violet );
+}
+
+/* styling image container */
+#imageContainer{
+    padding: 3rem;
+    width: 13rem;
+    height: 13rem;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* fit image to div */
+.img-style{
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+   border-radius: 50%;
+}
+
+
+/* table styling */
+#info-table{
+    margin: auto;
+    padding: 0 4rem;
+}
+
+
+
+.key-style{
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    border: 1px solid black;
+}
+
+.value-style{
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    border: 1px solid black;
+}
+
+/* styling for data got whil looping object */
+.object-style{
+    padding: 0 2rem;
+    border: 1px solid black;
+}

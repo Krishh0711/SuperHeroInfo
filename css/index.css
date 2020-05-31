@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg,violet, white,violet );
+}
+
+/* designing search bar */
+#search-input{
+  width: 50%;
+  height: 2rem;
+  border: 0px solid grey;
+  border-bottom: 1px solid black;
+}
+
+#search-input:focus{
+    outline: none;
+}
+
+/* styling of main container */
+
+#super-hero-container{
+    width: 100%;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+/* styling of search result tab */
+.super-hero-tab{
+    width: 13rem;
+    height: 13rem;
+    margin-right: 8px;
+    border-radius: 50%;
+    margin-top: 17px;
+}
+
+.super-hero-name{
+    color: maroon;  
+    margin-top: 90%;  
+}
+
+#button-style{
+    margin-left: 2rem;
+}
+
+.img-style{
+     height: 90%;
+     width: 90%; 
+     object-fit: cover;  
+     border-radius: 50%;
+}
+
+
+/* para styling -> for no result case */
+.para-style{
+    text-align: center;
+    font-size: 3rem;
+}
