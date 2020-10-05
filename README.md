@@ -6,3 +6,5 @@ Added feature
 4) REMOVE superhero from favourite list
 5) see list of favourite superhero
 6) see more info about superhero  from profile page
+
+#### Link: https://krishh0711.github.io/SuperHeroInfo/
